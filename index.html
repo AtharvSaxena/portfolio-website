@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atharv Saxena - Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -22,21 +22,143 @@
     </header>
 
     <main>
+        <!-- Home/Hero Section -->
         <section id="home" class="hero">
             <div class="hero-content">
-                <h2>Welcome to My Portfolio</h2>
+                <h2>Atharv Saxena</h2>
                 <h3>Aspiring Full Stack Developer</h3>
-                <p>BCA Student at National PG College</p>
+                <p>BCA Student | Passionate Coder | Future Tech Entrepreneur</p>
+                <div class="social-links">
+                    <a href="https://github.com/AtharvSaxena" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
                 <div class="cta-buttons">
                     <a href="#projects" class="btn primary">View My Work</a>
                     <a href="#contact" class="btn secondary">Contact Me</a>
                 </div>
             </div>
         </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Who Am I?</h3>
+                        <p>
+                            I'm Atharv Saxena, a first-semester BCA student with a burning passion for technology and software development. 
+                            My journey in the world of programming began with a dream to create innovative solutions that can transform the tech landscape.
+                        </p>
+                        <h3>My Goals</h3>
+                        <p>
+                            My ultimate vision is to establish my own IT company that challenges tech giants like Google and Microsoft. 
+                            I'm committed to continuous learning and developing skills that will help me turn this ambitious dream into reality.
+                        </p>
+                    </div>
+                    <div class="about-details">
+                        <h3>Personal Details</h3>
+                        <ul>
+                            <li><strong>Name:</strong> Atharv Saxena</li>
+                            <li><strong>Age:</strong> 19 Years</li>
+                            <li><strong>Location:</strong> Uttar Pradesh, India</li>
+                            <li><strong>Education:</strong> BCA - National PG College</li>
+                            <li><strong>Email:</strong> atharv.saxena@example.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-java"></i>
+                        <h3>Java</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-code"></i>
+                        <h3>C Language</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Portfolio Website</h3>
+                        <p>My personal portfolio website showcasing skills and projects.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn small">View Code</a>
+                            <a href="#" class="btn small secondary">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>Task Manager App</h3>
+                        <p>A web-based task management application with CRUD functionality.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn small">View Code</a>
+                            <a href="#" class="btn small secondary">Live Demo</a>
+                        </div>
+                    </div>
+                    <!-- Add more project cards as you create projects -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Atharv Saxena. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Atharv Saxena. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
