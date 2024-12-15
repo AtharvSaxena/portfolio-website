@@ -106,7 +106,7 @@ nav ul li a:hover {
 
 .btn.secondary {
     border: 2px solid var(--light-text);
-    color: var(--light-text);
+    color: var(--primary-text);
 }
 
 footer {
